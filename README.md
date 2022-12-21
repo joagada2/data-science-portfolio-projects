@@ -1,2 +1,39 @@
-# data-science-portfolio-projects
-Professional Data Science Portfolio Projects
+# Data Science Professional Portfolio 
+## Agada Joseph Oche
+### Data Scientist
+## [Project 1: Machine Learning Model for Credit Card Fraud Detection](https://github.com/joagada2/credit-card-fraud-detection-ml-model)
+In this project, I trained a logistics regression model that takes input from credit card transaction and predict if the transaction is fraudulent or not. The project is deployed using python flask framework and for production on [heroku cloud platform](https://card-fraud-prediction.herokuapp.com/). The data used for this project is unbalanced, in that only about 8% of the transactions used were fraudulent. This was impacting negatively on the precision and recall which are the right parameters for assessing models built with unbalanced data. Hence, I used oversampling technique to resample the minority class, thereby creating a balanced dataset. With the oversampling, I was able to improve the precision, recall and f1-score for the rare class from 0.89, 0.61 and 0.80 to 0.93, 0.95 and 0.94 respectively. The accuracy of the final model is 0.94. The API for this project can be built into card payment system to further improve on security features of online transactions platforms.
+
+## [Project 2: Deep Learning Model for King County House Price Prediction](https://github.com/joagada2/county-home-price-prediction-ml-application)
+In this project, I developed deep learning regression model for prediction of value of house/apartments at the King County including Seattle. I also built a web application for the model using flask for the backend and Vue Js for the front end. The backend and frontend are linked and the app is working perfectly well.
+
+## [Project 3: Machine Learning Model for Loan Default Prediction](https://github.com/joagada2/loan-default-prediction-using-logistics-regresion)
+In this project, I trained logistics regression model to predict if an applicant for loan would default, based on information provided at the point of application. The model was trained using the LendingClub dataset. The project involve extensive exploratory data analysis, missing data handling and feature engineering. Also, the dataset used is unbalanced. This is expected because it is normal for percentage of loan defaulters to be less than non-defaulters. To address the problem associated with the unbalanced dataset, I use oversampling technique to resample the minority class thereby improving my model's recall and f1-score from 0.47 and 0.62 to 0.81 and 0.81 respectively. The area under the ROC was also improved from 0.73 to 0.8. I also built web application for deployment of the model using the python flask framework.
+
+## [Project 4: Deep Learning Model for Detection of Malaria Infected Red Blood Cells](https://github.com/joagada2/deep-learning-model-for-malaria-diagnosis)
+In this computer vision project, I trained convolutional neural network which takes image of red blood cells and predict if the cell in malaria infected or not. The model has accuracy of 0.94. I also built a flask application for deployment of the model to production environment.
+
+## [Project 5: Segmentation of Olist E-commerce Website Customers Using K-means Clustering Unsupervised Learning Algorithmn](https://github.com/joagada2/customer-segmentation-using-K-means-clustering-algorithmn)
+In this era of data driven business decision making, customer segmentation is an invaluable tool for personalization. Personalization is essential for smart budgeting, product design, promotion, marketing and customer satisfaction. In this project, I created customer segmentation for Olist ecommerce website customers based on orders from 2016 to 2018. I also explored the various clusters a little further and discovered that customers in cluster 2 have far more financial value than those in other clusters while those in cluster 3 have by far, the lowest financial value.
+
+## [Project 6: Sentiment Classification of Movie Review](https://github.com/joagada2/sentiment-classification-of-movie-reviews)
+In this project, I used Natural Language Processing (NLP) and supervised machine learning (Naive Bayes) algorithms to build application for classification of sentiment behind movie review as either positive or negative. The app is deployed using the python flask framework.
+
+## [Project 7: Collaborative Filter Movie Recommender System](https://github.com/joagada2/collaborative-filter-movie-recommender-system)
+Having fore-knowledge of how a user would react to an item is an invaluable input to the process of deciding what to suggest to who. This fore-knowledge is what recommender system provides. In this project, I developed a collaborative filter recommender system to predict how users would react to movies on video streaming app with a view to determining what movie to recommend to who. The dataset used in this project is The MovieLens dataset which was downloaded from [Grouplens](https://grouplens.org/datasets/movielens/). Eleven (11) different models which are based on various variants of collaborative filter algorithm were fitted to the dataset and the best model was selected for predictions.
+
+## [Project 8: Content Based Movie Recommender System](https://github.com/joagada2/content-based-movie-recommender-system)
+In this project, I built a content based movie recommender systems for a collection of movies in the "The Movie Data Base" (tmdb_5000_movies) dataset downloaded from [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). This project is basically a Natural Language Processing (NLP) project in that the description field of the movie dataset was used to determine the similarity between all pairs of movies in the dataset. The Term Frequency - Inverse Document Frequency (TF-IDF) approach was used to vectorize the text documents while the cosine similarity matrix was used to quantify the similarity between each pair of movies. Finally, a function was written to take in a movie title and return 20 most similar movie to that movie. Hence, when a user indicates interest in a movie, 20 other movies can be recommended to the user. This recommendation can be through email marketing or the system could be built into various types of web applications to efficiently target users with smart recommendations. 
+
+## [Project 9: Content Based Movie Recommender System for Multiple Text Fields](https://github.com/joagada2/contrnt-based-movie-recommender-system-using-multiple-fields)
+In this project, I utilized multiple text fields of movie dataset from the tmdb_5000_movie dataset to build content based recommender system for the movies. It is expected that efficiency of movie recommender system will increase with more input fields. The steps in this project include feature engineering as columns/features were created from JSON files. 
+
+## [Project 10: Simple Recommender System](https://github.com/joagada2/simple-movie-recommender-system)
+While the content-based and collaborative filter are more effective, sophisticated and user specific recommender engines, they have one common challenge which is that they cannot be used to recommend items to new or non-regular users as past history of activities of the target user is required. The simple recommender system, though more generic and less effective, can be very useful in making recommendation to users with no history of activities. In this project, I built a simple recommender system using the Movielens dataset downloaded from [Grouplens](https://grouplens.org/datasets/movielens/latest/)
+
+## [Project 11: A/B Test for Marketing Campaign](https://github.com/joagada2/A-B-Testing)
+In this project, I carried out A/B test to check if advertisement is a better option than public service announcement as a means of getting to customers. The performance metric used was conversion rate which is the percentage of the target audience that performed the desired action. It was observed advertisement is a far better option than public service announcement.
+
+## [Project 12: Analytics Dashboard for Global Sales Data using PowerBI](https://github.com/joagada2/power-BI-data-analytics-and-visualization)
+In this project, I created analytics dashboard for global sales data of an ecommerce company using Power BI.
+
