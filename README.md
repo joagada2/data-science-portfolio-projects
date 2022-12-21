@@ -1,6 +1,7 @@
 # Data Science Professional Portfolio 
-## Agada Joseph Oche
+## Agada Joseph
 ### Data Scientist
+
 ## [Project 1: Machine Learning Model for Credit Card Fraud Detection](https://github.com/joagada2/credit-card-fraud-detection-ml-model)
 In this project, I trained a logistics regression model that takes input from credit card transaction and predict if the transaction is fraudulent or not. The project is deployed using python flask framework and for production on [heroku cloud platform](https://card-fraud-prediction.herokuapp.com/). The data used for this project is unbalanced, in that only about 8% of the transactions used were fraudulent. This was impacting negatively on the precision and recall which are the right parameters for assessing models built with unbalanced data. Hence, I used oversampling technique to resample the minority class, thereby creating a balanced dataset. With the oversampling, I was able to improve the precision, recall and f1-score for the rare class from 0.89, 0.61 and 0.80 to 0.93, 0.95 and 0.94 respectively. The accuracy of the final model is 0.94. The API for this project can be built into card payment system to further improve on security features of online transactions platforms.
 
