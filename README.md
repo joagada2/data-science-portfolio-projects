@@ -14,7 +14,7 @@ In this project, I trained logistics regression model to predict if an applicant
 ## [Project 4: Deep Learning Model for Detection of Malaria Infected Red Blood Cells](https://github.com/joagada2/deep-learning-model-for-malaria-diagnosis)
 In this computer vision project, I trained convolutional neural network which takes image of red blood cells and predict if the cell in malaria infected or not. The model has accuracy of 0.94. I also built a flask application for deployment of the model to production environment.
 
-## [Project 5: Segmentation of Olist E-commerce Website Customers Using K-means Clustering Unsupervised Learning Algorithmn](https://github.com/joagada2/customer-segmentation-using-K-means-clustering-algorithm)
+## [Project 5: Segmentation of Olist E-commerce Website Customers Using K-means Clustering Unsupervised Learning Algorithm](https://github.com/joagada2/customer-segmentation-using-K-means-clustering-algorithm)
 In this era of data driven business decision making, customer segmentation is an invaluable tool for personalization. Personalization is essential for smart budgeting, product design, promotion, marketing and customer satisfaction. In this project, I created customer segmentation for Olist ecommerce website customers based on orders from 2016 to 2018. I also explored the various clusters a little further and discovered that customers in cluster 2 have far more financial value than those in other clusters while those in cluster 3 have by far, the lowest financial value.
 
 ## [Project 6: Sentiment Classification of Movie Review](https://github.com/joagada2/sentiment-classification-of-movie-reviews)
